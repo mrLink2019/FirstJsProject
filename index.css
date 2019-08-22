@@ -1,0 +1,257 @@
+.toast {
+  position: fixed; 
+  top: 5; 
+  right: 0; 
+  z-index: 99;
+  width: 400px; 
+}
+
+.toast-header {
+  height: 40px;
+  font-size: 20px;
+}
+
+.toast-body {
+  height: 60px;
+  font-size: 18px;
+}
+
+.caption-head {
+  font-size: 25px;
+}
+
+.caption-body {
+  font-size: 20px;
+}
+
+.footerLinks {
+  font-size: 17px;
+}
+
+#md {
+  margin-left: 1.5%;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.navbar-brand {
+  margin-left: 16%;
+}
+
+
+#firstLine li {
+  display: inline;
+}
+
+#header {
+  font-size: 160%;
+  margin-left: 21%;
+  position: sticky;
+  top: 10%;
+}
+
+#OverviewLink {
+  margin-left: 29%;
+  margin-right: 1%;
+  position: sticky;
+  top: 20%;
+}
+
+#macOSLink, #TechSpecsLink {
+  margin-left: 1%;
+  margin-right: 1%;
+  position: sticky;
+  top: 20%;
+}
+
+.memory li, .storage li{
+  display: inline;
+}
+
+.memoryPrice {
+  padding-left: 35%;
+}
+
+.storagePrice {
+  padding-left: 55%;
+}
+
+@mixin modal-fullscreen() {
+  padding: 0 !important;
+  
+  .modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .modal-content {
+    height: auto;
+    min-height: 100%;
+    border: 0 none;
+    border-radius: 0;
+  }
+  
+}
+
+.modal-fullscreen {
+  @include modal-fullscreen();
+}
+
+#getStartedLink {
+  text-align: center;
+}
+
+#macImg, #favoritesImg {
+  cursor: pointer;
+}
+
+.memory, .storage, .keyboard {
+  cursor: pointer;
+  border: 1px solid gray;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 3%;
+  padding-right: 0%;
+}
+
+#memory8gb, #storage128gb {
+  border: 2px solid blue;
+}
+
+#memoryPrice8gb, #storagePrice128gb {
+  visibility: hidden;
+}
+
+#totalPrice {
+  padding-left: 22%;
+  font-size: 200%;
+  bottom: 0%;
+}
+
+#footer {
+  background: #F2F2F2;
+  color:black;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 8%;
+}
+
+#price-footer {
+  background: #FFFFFF;
+  color:black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+footer a {
+  color: #7C7671;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoTelegram:hover {
+  background-color: #31a9dd;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoTelegram:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
